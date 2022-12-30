@@ -1,17 +1,7 @@
-using System;
+string[] answers = new string[questions.Length];
 
-namespace PersonalityQuizApp
+for (int i = 0; i < questions.Length; i++)
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string[] questions = new string[]
-            {
-                "Do you enjoy outdoor activities? (yes/no)",
-                "Do you prefer reading books over watching movies? (yes/no)",
-                "Do you consider yourself an introvert? (yes/no)"
-            };
-        }
-    }
+    Console.WriteLine(questions[i]);
+    answers[i] = Console.ReadLine();
 }
