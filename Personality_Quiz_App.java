@@ -1,12 +1,7 @@
-import java.util.Scanner;
+System.out.println("Question 1: Do you enjoy socializing with large groups of people?");
+        response = scanner.nextInt();
+        score += response;
 
-public class PersonalityQuizApp {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int response;
-        int score = 0;
-
-        System.out.println("Welcome to the Personality Quiz!");
-        System.out.println("Please answer the following questions with a number from 1 to 5, 1 being 'Not at all' and 5 being 'Absolutely'");
-    }
-}
+        System.out.println("Question 2: Do you prefer to plan ahead rather than being spontaneous?");
+        response = scanner.nextInt();
+        score += response;
